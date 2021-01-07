@@ -1,0 +1,97 @@
+/* tutorial de formulários ralizado com o canal de Youtube da Rafaela Ballerini */
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* # chama o id*/
+
+#titulo {
+    font-family: sans-serif;
+    color: blueviolet;
+    justify-content: center;
+    
+}
+
+#subtitulo {
+    font-family: sans-serif;
+    margin-left: 10%;
+}
+
+
+/* para chamar as tags não é necessário caracteres especial */
+
+fieldset {
+    border: 0;
+}
+
+fieldset.grupo .campo {
+    float: left;
+    margin: 0em;
+}
+
+fieldset.grupo {
+    margin: 1em;
+}
+
+.campo {
+    margin: 1em;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.900);
+    font-family: sans-serif;
+    font-size: 1em;
+    margin-left: 30%;
+    margin-top: 2%;
+    color:  rgba(255, 255, 255, 0.725);
+}
+
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 2px solid gray;
+    box-shadow: 3px 3px 3px blueviolet;
+    display: block;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: silver;
+}
+
+.campo input[type="radio"] {
+    margin: 0.25em;
+}
+
+.grupo input[type="checkbox"] {
+    margin: 0.25em;
+}
+
+
+.botao {
+    font-size: 1.2em;
+    background: blueviolet;
+    border: 0;
+    margin-bottom: 2em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 3px 3px 3px silver;
+    text-shadow: 2px 2px 2px black;
+    position: absolute;
+    top: 86%;
+    left: 51%;
+    margin-right: -50%;
+}
+
+.botao:hover {
+    background: indigo;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+.botao, select{
+    cursor: pointer;
+}
+
